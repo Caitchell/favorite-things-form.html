@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Favorite Things</h1>
+    <form id="favoriteThings">
+      <div class="form-group">
+        <label for="color">Whats your favorite color?</label>
+        <input id="color" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="tvShow">Whats your favorite tv show?</label>
+        <input id="tvShow" type="text">
+      </div>
+      <div class="form-group">
+        <label for="animal">Whats your favorite animal?</label>
+        <input id="animal" type="text">
+      </div>
+      <div class="form-group">
+        <label for="food">Whats your favorite food?</label>
+        <input id="food" type="text">
+      </div>
+      <div class="form-group">
+        <label for="hobbies">Whats your favorite hobbie?</label>
+        <input id="hobbies" type="text">
+      </div>
+      <button type="submit" class="btn">All your favorite things!</button>
+    </form>
+  </div>
+
+  <div id="story">
+    <h1>These are your favorite things:</h1>
+      <ul id="allFavoriteThings"></ul>
+  </div>
+</body>
+</html>
